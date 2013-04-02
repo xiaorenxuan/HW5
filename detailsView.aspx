@@ -4,7 +4,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
-
+    <link rel ="Stylesheet" type ="text/css" href ="./css/detailsviewStyleSheet.css" />
 
     <asp:SqlDataSource ID="SqlDataSource1" runat="server" 
         ConnectionString="<%$ ConnectionStrings:cs_application %>" 
@@ -29,6 +29,23 @@
             <asp:Parameter Name="BookID" Type="Int32" />
         </UpdateParameters>
     </asp:SqlDataSource>
+
+    <asp:DetailsView 
+              ID="DetailsView2" 
+              runat="server" 
+              AutoGenerateRows="False" 
+              DataKeyNames="stID" 
+              DataSourceID="AccessDataSource1"
+              HeaderText="State Details"
+	      CssClass="cssdetailsview"
+              HeaderStyle-CssClass="header"
+              FieldHeaderStyle-CssClass="fieldheader"
+              ItemStyle-CssClass="item"
+              AlternatingRowStyle-CssClass="altrow"
+              CommandRowStyle-CssClass="command"
+              PagerStyle-CssClass="pager"
+          >
+    </asp:DetailsView>
 
 
 

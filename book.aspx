@@ -4,6 +4,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
+    <link rel ="Stylesheet" type ="text/css" href ="./css/gridviewStyleSheet.css" />
 
     <asp:SqlDataSource ID="BookDataSource" runat="server" 
         ConnectionString="<%$ ConnectionStrings:cs_application %>" 
@@ -29,6 +30,21 @@
         </UpdateParameters>
     </asp:SqlDataSource>
 
+	<asp:GridView 
+            ID="GridView2" 
+            runat="server" 
+            AllowPaging="True" 
+            AllowSorting="True" 
+            AutoGenerateColumns="False" 
+            DataKeyNames="stID" 
+            DataSourceID="AccessDataSource1"
+            PageSize="52" 
+            Gridlines="None"
+            CssClass="cssgridview"
+            AlternatingRowStyle-CssClass="alt"
+            PagerStyle-CssClass="pgr"
+        >
+    </asp:GridView>
 
     <asp:GridView ID="GridView1" runat="server" AllowPaging="True" 
         AllowSorting="True" AutoGenerateColumns="False" DataKeyNames="BookID" 

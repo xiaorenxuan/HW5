@@ -8,7 +8,7 @@
     <asp:ContentPlaceHolder id="head" runat="server">
     </asp:ContentPlaceHolder>
 
-    <link rel ="Stylesheet" type ="text/css" href ="./rexiao_style.css" />
+    <link rel ="Stylesheet" type ="text/css" href ="./css/rexiao_style.css" />
 
 </head>
 <body>
@@ -20,9 +20,9 @@
           <h1> Header Text</h1>
        </div>
 
-       <a href="book.aspx"> View all pages</a>
+       <a href="./book.aspx"> View all pages</a>
        <br />
-       <a href ="detailsView.aspx"> Add a new book </a>
+       <a href ="./detailsView.aspx"> Add a new book </a>
 
        <div id = "login">
            <asp:LoginStatus ID="LoginStatus1" runat="server" />
