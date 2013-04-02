@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="" title="."  description="">
+    
+    <siteMapNode url="~/defalut.aspx" title="Home"  description="" />
+
+    <siteMapNode url="~/admin/defalut.aspx" title="Admin"  description="">
+      <siteMapNode url ="~/admin/add.aspx" title ="Add Item" description ="" />
+      <siteMapNode url ="~/admin/edit.aspx" title ="Edit / Delete Item" description ="" />
+    </siteMapNode>
+
+    <siteMapNode url="~/sales/defalut.aspx" title="Sales"  description="">
+      <siteMapNode url ="~/admin/rent.aspx" title ="Rent an Item" description ="" />
+      <siteMapNode url ="~/admin/return.aspx" title ="Return an Item" description ="" />
+    </siteMapNode>
+
+    <siteMapNode url="~/customer/defalut.aspx" title="Customer"  description="">
+      
+      <siteMapNode url ="~/customer/view.aspx" title ="View Account" description ="" >
+        <siteMapNode url ="~/customer/pay.aspx" title ="Pay Late Fees" description ="" />
+      </siteMapNode>
+      
+    <siteMapNode url ="~/customer/reserve.aspx" title ="Reserve an Item" description ="" />
+      
+  </siteMapNode>
+
+  <siteMapNode url ="~search.aspx" title ="Search" description ="" />
+  
+  
+</siteMapNode>
+</siteMap>
