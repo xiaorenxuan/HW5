@@ -50,7 +50,18 @@
     <asp:DetailsView ID="DetailsView1" runat="server" AutoGenerateRows="False" 
         DataKeyNames="BookID" DataSourceID="SqlDataSource1" 
         EnablePagingCallbacks="True" Height="45px" Width="308px" 
-    AllowPaging="True">
+    AllowPaging="True"
+    
+       HeaderText="Book Details"
+	   CssClass="cssdetailsview"
+              HeaderStyle-CssClass="header"
+              FieldHeaderStyle-CssClass="fieldheader"
+              ItemStyle-CssClass="item"
+              AlternatingRowStyle-CssClass="altrow"
+              CommandRowStyle-CssClass="command"
+              PagerStyle-CssClass="pager"
+          >
+
         <Fields>
             <asp:BoundField DataField="BookName" HeaderText="Book Name" 
                 SortExpression="BookName" />

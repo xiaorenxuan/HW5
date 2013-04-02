@@ -30,7 +30,14 @@
 
     <asp:GridView ID="GridView1" runat="server" AllowPaging="True" 
         AllowSorting="True" AutoGenerateColumns="False" DataKeyNames="BookID" 
-        DataSourceID="BookDataSource" Height="142px" Width="393px">
+        DataSourceID="BookDataSource" Height="142px" Width="393px"
+        PageSize="52" 
+        Gridlines="None"
+        CssClass="cssgridview"
+        AlternatingRowStyle-CssClass="alt"
+        PagerStyle-CssClass="pgr"
+        >
+        
         <Columns>
             <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" 
                 ShowSelectButton="True" />
