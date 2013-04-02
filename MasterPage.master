@@ -9,20 +9,18 @@
     </asp:ContentPlaceHolder>
 
     <link rel ="Stylesheet" type ="text/css" href ="./css/rexiao_style.css" />
+    <link href="css/detailsviewStyleSheet.css" rel="stylesheet" type="text/css" />
+    <link href="css/gridviewStyleSheet.css" rel="stylesheet" type="text/css" />
 
 </head>
 <body>
     <form id="form1" runat="server">
  <div id = "container">
        <div id = "header">
-          <asp:Image class ="hdr_image" ID="Image1" runat="server" Height="158px" ImageUrl="~/logo/logo.jpg" 
-               Width="167px" />
-          <h1> Header Text</h1>
+          <asp:Image class ="hdr_image" ID="Image1" runat="server" Height="148px" ImageUrl="~/logo/logo.jpg" 
+               Width="168px" />
+          <h1> South Liberty Public Library </h1>
        </div>
-
-       <a href="./book.aspx"> View all pages</a>
-       <br />
-       <a href ="./detailsView.aspx"> Add a new book </a>
 
        <div id = "login">
            <asp:LoginStatus ID="LoginStatus1" runat="server" />
@@ -48,7 +46,7 @@
         </div>
 
        <div id = "footer">
-          Footer Text
+       Copyright © All Rights Reserved by Renxuan Xiao
        </div>
       </div>
 

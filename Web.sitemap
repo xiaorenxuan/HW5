@@ -10,8 +10,8 @@
     </siteMapNode>
 
     <siteMapNode url="~/sales/defalut.aspx" title="Sales"  description="">
-      <siteMapNode url ="~/admin/rent.aspx" title ="Rent an Item" description ="" />
-      <siteMapNode url ="~/admin/return.aspx" title ="Return an Item" description ="" />
+      <siteMapNode url ="~/sales/rent.aspx" title ="Rent an Item" description ="" />
+      <siteMapNode url ="~/sales/return.aspx" title ="Return an Item" description ="" />
     </siteMapNode>
 
     <siteMapNode url="~/customer/defalut.aspx" title="Customer"  description="">
@@ -24,8 +24,7 @@
       
   </siteMapNode>
 
-  <siteMapNode url ="~search.aspx" title ="Search" description ="" />
-  
+  <siteMapNode url ="https://www.google.com" title ="Search" description ="" />
   
 </siteMapNode>
 </siteMap>
