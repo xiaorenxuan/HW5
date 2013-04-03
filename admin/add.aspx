@@ -38,11 +38,11 @@
         PagerStyle-CssClass="pgr"
         >
         
+<AlternatingRowStyle CssClass="alt"></AlternatingRowStyle>
+        
         <Columns>
             <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" 
                 ShowSelectButton="True" />
-            <asp:BoundField DataField="BookID" HeaderText="BookID" 
-                SortExpression="BookID" InsertVisible="False" ReadOnly="True" />
             <asp:BoundField DataField="BookName" HeaderText="BookName" 
                 SortExpression="BookName" />
             <asp:BoundField DataField="Author" HeaderText="Author" 
@@ -52,6 +52,8 @@
             <asp:BoundField DataField="avalibility" HeaderText="avalibility" 
                 SortExpression="avalibility" />
         </Columns>
+
+<PagerStyle CssClass="pgr"></PagerStyle>
     </asp:GridView>
 </asp:Content>
 

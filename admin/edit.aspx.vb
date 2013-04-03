@@ -9,19 +9,19 @@ Partial Class detailsView
         Response.Write(delBook)
         Response.Write("</span> has been deleted from the database")
 
-        Response.AddHeader("REFRESH", "3;URL=./book.aspx")
+        Response.AddHeader("REFRESH", "3;URL=./add.aspx")
 
 
     End Sub
 
 
     Protected Sub DetailsView1_ItemInserted(sender As Object, e As System.Web.UI.WebControls.DetailsViewInsertedEventArgs) Handles DetailsView1.ItemInserted
-        Response.Redirect("./book.aspx")
+        Response.Redirect("./add.aspx")
     End Sub
 
 
 
     Protected Sub DetailsView1_ItemUpdated(sender As Object, e As System.Web.UI.WebControls.DetailsViewUpdatedEventArgs) Handles DetailsView1.ItemUpdated
-        Response.Redirect("./book.aspx")
+        Response.Redirect("./add.aspx")
     End Sub
 End Class

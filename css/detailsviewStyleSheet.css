@@ -7,7 +7,7 @@
 /* CSS to format a detailsview --START */
 
 
-.cssdetailsview { font-family: "Comic Sans MS"; background-color:#fff; margin:5px 0 10px 0; border:solid 1px #525252; border-collapse:collapse; text-align:center; }
+.cssdetailsview { font-family: "Comic Sans MS"; background-color:#A3D0F8; margin:5px 0 10px 0; border:solid 1px #525252; border-collapse:collapse; text-align:center; }
 
 
 .cssdetailsview td { padding:10px; border:solid 1px #c1c1c1; color:#717171; text-align:left;}
@@ -16,7 +16,7 @@
 .cssdetailsview .header td { text-align:center; padding:4px 2px; color:silver; background:#424242 url(./css/grd_head.png) repeat-x top; border-left:solid 1px #525252; }
 
 
-.cssdetailsview .fieldheader { color:red; width:150px; text-align:right;}
+.cssdetailsview .fieldheader { color:black; width:150px; text-align:right;}
 
 
 .cssdetailsview .altrow { background: #fcfcfc url(./css/grd_alt.png) repeat-x top; }
